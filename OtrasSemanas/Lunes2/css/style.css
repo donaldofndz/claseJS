@@ -1,0 +1,85 @@
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.imagen{
+  width: 50%;
+  height: 400px;
+  background-image: url("../img/goya.jpg");
+  background-repeat: no-repeat;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.gradiente{
+
+  width: 700px;
+  height: 700px;
+  background: linear-gradient(to  bottom left, rgba(255,0,0,.1),rgba(255,0,0,1));
+}
+
+.transformacion{
+
+
+  transform: rotateX(30deg);
+
+}
+
+
+.transicion{
+  width: 100px;
+  height: 100px;
+  background: pink;
+  transition: background 3s, height 3s, transform 3s;
+
+}
+
+
+.transicion:hover{
+
+  background-color: yellow;
+  height: 200px;
+  transform: rotate(45deg);
+}
+
+
+.renglon{
+  display: inline-block;
+}
+
+
+.par{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  color: yellow;
+
+}
+
+.impar{
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  color: pink;
+
+}
+
+.par:hover{
+  font-size: 30px;
+  color: black;
+  background-color: rgba(0,0,255,.4);
+  text-align: center;
+
+
+}
+
+.impar:hover{
+  font-size: 30px;
+  color: black;
+  background-color: rgba(0,0,255,.4);
+  text-align: center;
+
+
+
+}

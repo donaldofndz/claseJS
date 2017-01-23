@@ -1,0 +1,10 @@
+1. Qué es una direccion IP
+2. Qué es una dirección MAC
+3. Qué es una red
+4. Qué es git
+5. Qué es ATOM
+6. Por qué usamos ATOM
+7. Cómo se llaman los tres instructores
+8. Explique que es el area de trabajo en git
+9. Explique que es el repositorio en git
+10. Con qué comando se puede ver la bitacora en git 

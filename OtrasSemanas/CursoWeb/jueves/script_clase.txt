@@ -1,0 +1,12 @@
+-- Clase inicia con los tamaños de letra:
+-- Max Width
+-- overflow
+-- float
+-- Forms
+
+*The font-size won't respond like this when resizing the browser window. Instead they respond to the browser zoom/type size settings, such as if you press ctrl and + together on the keyboard while in the browser.*
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Css Responsive

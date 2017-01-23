@@ -1,0 +1,102 @@
+------------------------------------------------------------------------------------------------
+git init --- marca el comienzo de nuestro proyecto
+------------------------------------------------------------------------------------------------
+** crear un index
+git status // nos indica el estado de nuestro proyecto
+** crear style
+------------------------------------------------------------------------------------------------
+git add index.html
+------------------------------------------------------------------------------------------------
+git commit -m "Mensaje para identificar el add" // mensaje para identificar add
+------------------------------------------------------------------------------------------------
+git add -A
+git commit -m ""
+------------------------------------------------------------------------------------------------
+**modificar el index y style
+git status
+git add index
+git commit -m ""
+------------------------------------------------------------------------------------------------
+git log //nos muestra la informacion de nuestros commits
+------------------------------------------------------------------------------------------------
+git checkout *clave del commit al que queremos viajar* //sirve para viajar en el tiempo en commits
+------------------------------------------------------------------------------------------------
+git checkout master //nos mueve al ultimo commit que hayamos hecho en el tiempo
+------------------------------------------------------------------------------------------------
+git reset --soft  // no borra nada del working area, pero borra el commit
+------------------------------------------------------------------------------------------------
+git reset --hard //borra tanto el commit como el codigo que habia en el commit
+------------------------------------------------------------------------------------------------
+git help // nos da una pequeña documentacion sobre git
+------------------------------------------------------------------------------------------------
+git help status //nos da documentacion sobre el comando
+------------------------------------------------------------------------------------------------
+git branch // nos muestra la rama donde estamos, solo muestra la master con asterisco porque es donde estamos
+------------------------------------------------------------------------------------------------
+git branch nombre //creamos una nueva rama
+------------------------------------------------------------------------------------------------
+git checkout nombre // nos sirve para movernos entre ramas
+git branch // la otra tendra asterisco, es donde estamos ahora
+git log // los commits de la otra rama estan en esta, empezamos desde nuestro head
+-- hacer algun cambio
+git add
+git commit
+git log
+git branch
+git checkout master
+git log
+------------------------------------------------------------------------------------------------
+git branch -D nombrederama //borra la rama 
+
+------------------------------------------------------------------------------------------------
+PARA LAS FUSIONES
+-- Nos situamos sobre la rama que absorvera
+
+git checkout master
+git branch
+git merge RamaAAbsorver
+git branch
+git log
+
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------
+git init --- marca el comienzo de nuestro proyecto
+------------------------------------------------------------------------------------------------
+** crear un index
+git status // nos indica el estado de nuestro proyecto
+** crear style
+------------------------------------------------------------------------------------------------
+git add index.html
+------------------------------------------------------------------------------------------------
+git commit -m "Mensaje para identificar el add" // mensaje para identificar add
+------------------------------------------------------------------------------------------------
+git add -A
+git commit -m ""
+------------------------------------------------------------------------------------------------
+**modificar el index y style
+git status
+git add index
+git commit -m ""
+------------------------------------------------------------------------------------------------
+git log //nos muestra la informacion de nuestros commits
+------------------------------------------------------------------------------------------------
+git checkout *clave del commit al que queremos viajar* //sirve para viajar en el tiempo en commits
+------------------------------------------------------------------------------------------------
+git checkout master //nos mueve al ultimo commit que hayamos hecho en el tiempo
+------------------------------------------------------------------------------------------------
+git reset --soft  // no borra nada del working area, pero borra el commit
+------------------------------------------------------------------------------------------------
+git reset --hard //borra tanto el commit como el codigo que habia en el commit
+------------------------------------------------------------------------------------------------
+git help // nos da una pequeña documentacion sobre git
+------------------------------------------------------------------------------------------------
+git help status //nos da documentacion sobre el comando
+------------------------------------------------------------------------------------------------

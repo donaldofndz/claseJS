@@ -1,0 +1,18 @@
+.campoDeJuego{
+
+  width: 100%;
+
+  min-height: 700px;
+  border: 1px solid black;
+
+}
+
+.objetivo{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  top: 0px;
+  left: 0%;
+  
+}

@@ -1,0 +1,36 @@
+*{
+
+}
+
+body {
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 6em;
+  background: rgb(241,241,241);
+
+}
+
+.general {
+
+  margin:1%;
+
+}
+
+.nombreBlog{
+  font-size: .5em;
+  font-weight: 20
+}
+
+.descripBlog{
+  font-size: .2em;
+  padding: 0;
+
+}
+
+.titulo{
+  width: auto;
+  height: 20%;
+  text-align: center;
+  top: ;
+
+}

@@ -1,0 +1,18 @@
+1. ¿Cuál es la estructura basica de una página web?
+2. ¿Cuál es la función de CSS dentro de una página web?
+3. ¿Cuál es la función de JS?
+4. ¿Qué es Back-End?
+5. ¿Qué es Front-End?
+6. ¿Cuál es la función del "." dentro del lenguajes css?
+7. ¿Diferencia entre una etiqueta de linea y una de bloque?
+8. ¿Cómo se hace una lista en html?
+9. Suponiendo el siguiente, hacer que se muestre como un cuadro
+
+      <div>
+      -----------------
+      </div>
+10. ¿Qué indican los siguientes?
+
+  .algo a {                               p > a {
+  -----------                             -------------
+  }                                       }
