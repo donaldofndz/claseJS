@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Un poco más de variables</title>
+  </head>
+  <body>
+
+
+    <input type="text" name="" value="" id="miInput">
+
+    <button id="boton">Cambiemos lo escrito</button>
+
+    <div id="primDiv">Aqui va a ir escrito algo</div>
+
+
+    <script type="text/javascript">
+
+    /* PRIMERA PARTE
+        Como usar variables dentro de otras funciones...
+
+      var variable= "primDiv";
+
+      document.getElementById("boton").onclick=function(){
+
+        document.getElementById(variable).innerHTML="Cambia de texto";
+
+      }
+    */
+
+  /* SEGUNDA PARTE
+
+    Leyendo de input
+    //Este texto esta mal colocado porque lee al inicio del programa
+    var nuevoTexto = document.getElementById("miInput").value;
+
+    document.getElementById("boton").onclick=function(){
+
+      var nuevoTexto = document.getElementById("miInput").value;
+
+      document.getElementById("primDiv").innerHTML= nuevoTexto;
+    }
+  */
+
+
+  /*
+    TERCERA PARTE
+    jugar un poco con funciones en js
+
+
+  */
+
+
+
+
+
+
+    </script>
+
+  </body>
+</html>
