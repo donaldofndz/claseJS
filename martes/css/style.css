@@ -1,0 +1,18 @@
+.circulo{
+
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  border-radius: 50px;
+
+}
+
+
+#cuadrado{
+  margin-top: 10px;
+  height: 100px;
+  width: 100px;
+  background-color: orange;
+
+
+}

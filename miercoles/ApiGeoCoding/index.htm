@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+
+
+
+  <script type="text/javascript" src="jquery.min.js"></script>
+
+  <script type="text/javascript">
+
+          $.ajax({
+              dataType: "json",
+              url: "https://maps.googleapis.com/maps/api/geocode/json?address=xochitepec55ciudaddemexicoA&key=AIzaSyAPnw2igLr14mwrrq1LSd9jpgLzVhWfNkE",
+
+              success: obtenerDatos
+          });
+
+  function obtenerDatos(json){
+
+    var casteo = json.results[0].address_components[6].long_name;
+    console.log(casteo);
+
+    casteo.each(function(){
+      console.log("hubo Algo");
+    });
+
+    console.log(json.results[0].geometry.location.lat);
+  }
+
+  </script>
+
+</body>
+</html>

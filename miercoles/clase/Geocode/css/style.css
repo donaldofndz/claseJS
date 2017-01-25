@@ -1,0 +1,13 @@
+html,body{
+  height: 100%;
+  margin: 0;
+}
+
+.imgFondo{
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../img/im1.jpg");
+
+}

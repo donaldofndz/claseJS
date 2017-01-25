@@ -1,5 +1,7 @@
 //Obtenemos el contexto y canvas
 var canvas = $('canvas');
+
+alert(canvas);
 var context = canvas[0].getContext("2d");
 var color = $('.selected').css('background-color');
 var lastEvent;
@@ -20,7 +22,7 @@ $('#revealColorSelect').click(function(){
 
   //Ocultar o mostrar menu con id=colorSelect
   $('#colorSelect').toggle();
-  
+
   //Cambiar color
   //Aqui se va a llamar la funcion que va a cambiar de color
   changeColor();
@@ -74,33 +76,7 @@ canvas.mousedown(function(event){
   }
 }).mouseup(function(){
   mouseDown = false;
-  
+
 }).mouseleave(function(){
   mouseDown = false;
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
